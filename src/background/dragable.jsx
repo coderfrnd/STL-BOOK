@@ -1,9 +1,6 @@
-// App.jsx
-
 import React, { useState } from 'react';
-import './App.css';
 
-const App = () => {
+const DraggableComponent = () => {
   const [isDragging, setIsDragging] = useState(false);
   const [offsetX, setOffsetX] = useState(0);
   const [offsetY, setOffsetY] = useState(0);
@@ -12,16 +9,14 @@ const App = () => {
 
   const handleMouseDown = (event) => {
     setIsDragging(true);
-    setOffsetX(event.clientX);
-    setOffsetY(event.clientY);
+    setOffsetX(event.clientX - event.target.getBoundingClientRect().left);
+    setOffsetY(event.clientY - event.target.getBoundingClientRect().top);
   };
 
   const handleMouseMove = (event) => {
     if (isDragging) {
-      setLeft(left + event.clientX - offsetX);
-      setTop(top + event.clientY - offsetY);
-      setOffsetX(event.clientX);
-      setOffsetY(event.clientY);
+      setLeft(event.clientX - offsetX);
+      setTop(event.clientY - offsetY);
     }
   };
 
@@ -31,15 +26,15 @@ const App = () => {
 
   return (
     <div
-      className="w-64 h-64 bg-blue-500 absolute border border-gray-800"
+      className="absolute w-32 h-32 bg-blue-500 cursor-move"
       style={{ left: `${left}px`, top: `${top}px` }}
       onMouseDown={handleMouseDown}
       onMouseMove={handleMouseMove}
       onMouseUp={handleMouseUp}
     >
-      <h1 className="text-white text-lg p-2">Drag me!</h1>
+      Drag me!
     </div>
   );
 };
 
-export default App;
+export default DraggableComponent;
