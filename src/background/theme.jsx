@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Check = () => {
+const theme = () => {
   return (
     <div>
-     
+        theme
 
     </div>
   )
 }
 
-export default Check
+export default theme
