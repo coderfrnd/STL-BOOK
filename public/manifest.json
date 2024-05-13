@@ -1,0 +1,15 @@
+{
+    "manifest_version":3,
+    "version":"1.0.0",
+    "name":"STL-UPDATE",
+    "action":{
+        "default_popup":"index.html"
+    },
+    "permission":[
+        "scripting"
+    ],
+    "host_permissions":[
+        "http://*/*",
+        "https://*/*"
+    ]
+}
