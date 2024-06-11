@@ -10,8 +10,8 @@ function App() {
     <div className=''>
     <div className='h-full w-full'>
        STL-BOOK1
-       Abhishek badwa
-       KK entred
+       Abhishek Great
+       KK entred 
        11/06/2024
        <Check/>
     </div>
