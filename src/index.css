@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
+<<<<<<< HEAD
 @tailwind utilities;
+=======
+@tailwind utilities;
+
+.front{
+    background-color: rgba(242, 251, 251, 1);
+}
+>>>>>>> keshav
