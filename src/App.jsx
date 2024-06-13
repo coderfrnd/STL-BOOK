@@ -15,7 +15,7 @@ function App() {
         </div>
 
         <div className="languages flex flex-col m-1 justify-center items-center">
-          <button className="button font-bold rounded-xl p-4 w-[150px] h-[40px] my-2">C++</button>
+          <button className="button font-bold rounded-xl p-4 w-[50%] my-2">C++</button>
           <button className="button font-bold rounded-xl p-4 w-[50%] my-2">Java</button>
           <button className="button font-bold rounded-xl p-4 w-[50%] my-2">Python</button>
         
