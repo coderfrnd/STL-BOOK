@@ -1,23 +1,23 @@
-import { useState } from "react";
 
 import "./App.css";
-import Check from "./background/Check";
+import Block from "./Background/Block";
+import Front_Btn from "./Background/Front_Btn";
 
 function App() {
   return (
-    <div className="">
+    <div className=" font-inter">
       <div className="front h-full w-full flex flex-col">
         <div className="upper-btn flex justify-center items-center">
-          <button className="button font-bold rounded-b-2xl p-4">Programming-Book</button>
+         <Front_Btn label='Programing Book'/>
         </div>
         <div className="border border-black">
           
         </div>
 
         <div className="languages flex flex-col m-1 justify-center items-center">
-          <button className="button font-bold rounded-xl p-4 w-[50%] my-2">C++</button>
-          <button className="button font-bold rounded-xl p-4 w-[50%] my-2">Java</button>
-          <button className="button font-bold rounded-xl p-4 w-[50%] my-2">Python</button>
+          <Block label='C++'/>
+          <Block label='PYTHON'/>
+          <Block label='JAVA'/>
         
         </div>
 
