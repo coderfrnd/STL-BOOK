@@ -17,8 +17,7 @@ function App() {
         <div className="languages flex flex-col m-1 justify-center items-center">
           <Block label='C++'/>
           <Block label='PYTHON'/>
-          <Block label='JAVA'/>
-        
+          <Block label='JAVA'/> 
         </div>
 
       </div>
