@@ -1,7 +1,7 @@
 
-import "./App.css";
-import Block from "./Background/Block";
-import Front_Btn from "./Background/Front_Btn";
+// import "./App.css";
+import Block from "./background/Block"
+import Front_Btn from "./background/Front_Btn"
 
 function App() {
   return (
