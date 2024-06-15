@@ -1,28 +1,24 @@
+import React from 'react';
+import Start from './Background/Start';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import Cppfront from './Languages/CPP/Cppfront';
+import JavaFront from './Languages/JAVA/JavaFront';
+import PythontFront from './Languages/Python/PythontFront';
 
-// import "./App.css";
-import Block from "./background/Block"
-import Front_Btn from "./background/Front_Btn"
-
+// Cppfront
 function App() {
   return (
-    <div className=" font-inter">
-      <div className="front h-full w-full flex flex-col">
-        <div className="upper-btn flex justify-center items-center">
-         <Front_Btn label='Programing Book'/>
-        </div>
-        <div className="border border-black">
-          
-        </div>
-
-        <div className="languages flex flex-col m-1 justify-center items-center">
-          <Block label='C++'/>
-          <Block label='PYTHON'/>
-          <Block label='JAVA'/>
-        
-        </div>
-
-      </div>
-    </div>
+    <BrowserRouter>
+    {/* <Start/> */}
+    <Routes>
+      <Route path="/" element={<Start/>} />
+          <Route path="/cpp" element={<Cppfront/>} />
+          <Route path="/java" element={<JavaFront/>} />
+          <Route path="/python" element={<PythontFront/>} />
+        </Routes>
+    </BrowserRouter>
+   
+  //  <Start
   );
 }
 
