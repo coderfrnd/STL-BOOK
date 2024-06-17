@@ -1,6 +1,6 @@
 import React from 'react';
 import Start from './Background/Start';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Cppfront from './Languages/CPP/Cppfront';
 import JavaFront from './Languages/JAVA/JavaFront';
 import PythontFront from './Languages/Python/PythontFront';
