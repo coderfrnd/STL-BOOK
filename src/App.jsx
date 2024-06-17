@@ -14,7 +14,7 @@ function App() {
       <Route path="/" element={<Start/>} />
           <Route path="/cpp" element={<Cppfront/>} />
           <Route path="/java" element={<JavaFront/>} />
-          <Route path="/python" element={<PythontFront/>} />
+          <Route path="/python" element={<PythontFront/>}/>
         </Routes>
     </MemoryRouter>
    
