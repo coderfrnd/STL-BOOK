@@ -1,12 +1,15 @@
 import React from "react";
 import Btn from "./Btn";
+import { Link } from "react-router-dom";
 // import { Link } from 'react-router-dom';
 const Cppfront = () => {
   return (
-    <div className="bg-blue-50">
+    <div className="bg-blue-50 pt-2">
       <div className="m-0 p-0">
         <div className="flex items-center justify-center">
-          <Btn lable={"Map"} />
+          <Link to="/cpp/map">
+            <Btn lable={"Map"} />
+          </Link>
         </div>
 
         <div className="flex justify-between">
