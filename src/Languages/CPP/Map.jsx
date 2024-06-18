@@ -8,13 +8,13 @@ function Map() {
         </div>
         <div className='p-2'>
             <div className='text-sm font-bold'>Initilization:</div>
-            <div className='text-sm pl-3'>-{`map<key_type, value_type> map_name;`}</div>
+            <div className='text-sm ml-3 bg-blue-950 rounded-md pl-1 text-white'>-{`map<key_type, value_type> map_name;`}</div>
             
             <div className='text-sm font-bold'>Inserting values:</div>
-            <div className="text-sm pl-3">-map_name[key] = value;</div>
+            <div className="text-sm ml-3 bg-blue-950 rounded-md pl-1 text-white">-map_name[key] = value;</div>
 
             <div className='text-sm font-bold'>Accessing Values:</div>
-            <div className="text-sm pl-3">-map_name[key];</div>
+            <div className="text-sm ml-3 bg-blue-950 rounded-md pl-1 text-white">-map_name[key];</div>
         </div>
     </div>
   )
