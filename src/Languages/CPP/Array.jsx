@@ -27,12 +27,18 @@ function Array() {
             {`    arr[i] = value;}`}
         </div>
 
+        <div className='text-sm font-bold'>Accessing Values:</div>
+        <div className="text-xs ml-3 bg-blue-950 rounded-md pl-1 text-white">-array_name[index];</div>
+
+
+        <div className='text-sm font-bold'>Methods:</div>
+        <div className="text-xs ml-3 mb-0.5 bg-blue-950 rounded-md pl-1 text-white"><b>sizeof(array_name) : </b> returns the total size in bytes</div>
+        <div className="text-xs ml-3 mb-0.5 bg-blue-950 rounded-md pl-1 text-white"><b>sizeof(array_name)/sizeof(array_name[0]) : </b> returns the number of elements in array</div>
+
         <div className="text-sm font-bold">2-D Array:</div>
         <div className="text-xs ml-3 mb-0.5 bg-blue-950 rounded-md pl-1 text-white">
-          -{`int arr[5] = {1, 2, 3, 4, 5};`}
+          -{`int arr[a][b];`}
         </div>
-
-
       </div>
     </div>
   );
