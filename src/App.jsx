@@ -5,6 +5,7 @@ import Cppfront from "./Languages/CPP/Cppfront";
 import JavaFront from "./Languages/JAVA/JavaFront";
 import PythontFront from "./Languages/Python/PythontFront";
 import Map from "./Languages/CPP/Map";
+import Queue from "./Languages/CPP/Queue";
 
 // Cppfront
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/java" element={<JavaFront />} />
         <Route path="/python" element={<PythontFront />} />
         <Route path="/cpp/map" element={<Map />} />
+        <Route path="/cpp/queue" element={<Queue />} />
       </Routes>
     </MemoryRouter>
 

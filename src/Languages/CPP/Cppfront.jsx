@@ -16,7 +16,9 @@ const Cppfront = () => {
         </div>
 
         <div className="flex justify-between">
-          <Btn lable={"Queue"} />
+          <Link to="/cpp/queue">
+            <Btn lable={"Queue"} />
+          </Link>
           <Btn lable={"Array  "} />
         </div>
 
