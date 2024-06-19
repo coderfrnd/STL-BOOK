@@ -3,10 +3,10 @@ import React from 'react'
 function Map() {
   return (
     <div>
-        <div className='p-2 m-0 flex justify-center'>
+        <div className='pt-2 m-0 flex justify-center'>
             <button className='flex justify-center items-center button rounded-2xl p-2 w-20 bg-[#9AE9FA]'>Map</button>
         </div>
-        <div className='p-2'>
+        <div className='px-2 pt-1 h-64 overflow-auto'>
             <div className='text-sm font-bold'>Initilization:</div>
             <div className='text-sm ml-3 bg-blue-950 rounded-md pl-1 text-white'>-{`map<key_type, value_type> map_name;`}</div>
             
@@ -15,6 +15,14 @@ function Map() {
 
             <div className='text-sm font-bold'>Accessing Values:</div>
             <div className="text-sm ml-3 bg-blue-950 rounded-md pl-1 text-white">-map_name[key];</div>
+
+            <div className='text-sm font-bold'>Methods:</div>
+            <div className="text-sm ml-3 mb-0.5 bg-blue-950 rounded-md pl-1 text-white"><b>.begin() : </b> returns first element of map</div>
+            <div className="text-sm ml-3 mb-0.5 bg-blue-950 rounded-md pl-1 text-white"><b>.end() : </b> returns last element of map</div>
+            <div className="text-sm ml-3 mb-0.5 bg-blue-950 rounded-md pl-1 text-white"><b>.size() : </b> returns no. of elements in map</div>
+            <div className="text-sm ml-3 mb-0.5 bg-blue-950 rounded-md pl-1 text-white"><b>.max_size() : </b> returns max no. of elements map can hold</div>
+            <div className="text-sm ml-3 mb-0.5 bg-blue-950 rounded-md pl-1 text-white"><b>.max_size() : </b> returns max no. of elements map can hold</div>
+
         </div>
     </div>
   )
