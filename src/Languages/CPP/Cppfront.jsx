@@ -25,17 +25,25 @@ const Cppfront = () => {
         </div>
 
         <div className="flex justify-between">
-          <Btn lable={"Set"} />
+          <Link to="/cpp/set">
+            <Btn lable={"Set"} />
+          </Link>
           <Btn lable={"Loop"} />
         </div>
 
         <div className="flex justify-between">
-          <Btn lable={"Stack"} />
-          <Btn lable={"String"} />
+          <Link to="/cpp/stack">
+            <Btn lable={"Stack"} />
+          </Link>
+          <Link to="/cpp/string">
+            <Btn lable={"String"} />
+          </Link>
         </div>
 
         <div className="flex items-center justify-center">
-          <Btn lable={"Vector"} />
+          <Link to="/cpp/vector">
+            <Btn lable={"Vector"} />
+          </Link>
         </div>
       </div>
 
