@@ -25,7 +25,9 @@ const Cppfront = () => {
         </div>
 
         <div className="flex justify-between">
-          <Btn lable={"Set"} />
+          <Link to="/cpp/set">
+            <Btn lable={"Set"} />
+          </Link>
           <Btn lable={"Loop"} />
         </div>
 

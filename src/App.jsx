@@ -7,6 +7,7 @@ import PythontFront from "./Languages/Python/PythontFront";
 import Map from "./Languages/CPP/Map";
 import Queue from "./Languages/CPP/Queue";
 import Array from "./Languages/CPP/Array";
+import Set from "./Languages/CPP/Set";
 
 // Cppfront
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/cpp/map" element={<Map />} />
         <Route path="/cpp/queue" element={<Queue />} />
         <Route path="/cpp/array" element={<Array /> } />
+        <Route path="/cpp/set" element={<Set />} />
       </Routes>
     </MemoryRouter>
 
